@@ -11,6 +11,6 @@ foreach($functions as $func) {
     echo $func."$br\n";
 }
 
-echo predis_connection('192.168.36.131',63788);
+echo predis_connection('192.168.36.131',6379);
 
 ?>
